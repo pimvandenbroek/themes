@@ -113,6 +113,12 @@ For Debian or Ubuntu slim, install Git with `apt-get` before running `npm ci`. A
 
 For a private repository, CI and Docker builds need authenticated Git access. Use a deploy key or token passed as a build secret; do not put credentials in build arguments or image layers.
 
+## Releases
+
+To release the collection, bump the root `package.json` version and push that change to `main`. The workflow compares it with the previous commit, then creates the matching `v<version>` tag and a GitHub Release with DaisyUI and Ghostty archives and a built VS Code `.vsix`. Unchanged versions and existing releases are skipped. A tag without a release is reused only if it points to the exact commit being released; existing tags are never replaced.
+
+Apps can pin the Git dependency to the generated tag, for example `npm install github:pimvandenbroek/themes#v1.1.0`. The VS Code extension's own version in `vscode/silo-terminal-theme/package.json` identifies the VSIX; the root package version tags the full theme collection.
+
 ## Available themes
 
 | File | Theme name | Description |
