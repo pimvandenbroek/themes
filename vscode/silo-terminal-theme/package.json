@@ -1,0 +1,22 @@
+{
+  "name": "silo-terminal-theme",
+  "displayName": "Silo Terminal",
+  "description": "A dark, black-green phosphor VS Code theme based on onehorizonai/silo-terminal.",
+  "version": "1.1.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Silo Terminal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/silo-terminal-color-theme.json"
+      }
+    ]
+  }
+}

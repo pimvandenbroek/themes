@@ -1,0 +1,19 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./daisyui/*": "./daisyui/*",
+    "./vscode/*": "./vscode/*",
+    "./ghostty/*": "./ghostty/*"
+  },
+  "files": ["daisyui", "vscode", "ghostty"],
+  "peerDependencies": {
+    "daisyui": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "daisyui": {
+      "optional": true
+    }
+  }
+}

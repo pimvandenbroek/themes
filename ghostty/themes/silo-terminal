@@ -1,0 +1,33 @@
+# Silo Terminal theme for Ghostty
+# Based on silo-terminal.json (onehorizonai/silo-terminal)
+#
+# To use: save as ~/.config/ghostty/themes/silo-terminal, then set
+#   theme = silo-terminal
+# in your ghostty config. Or copy the contents below directly into
+# your main ghostty config file.
+
+background = 00120f
+foreground = b5f0cf
+
+cursor-color = 13b7bf
+cursor-text = 00120f
+
+selection-background = 13b7bf
+selection-foreground = 00120f
+
+palette = 0=#000f0c
+palette = 1=#b3745d
+palette = 2=#9ac97f
+palette = 3=#cbe487
+palette = 4=#27a9b3
+palette = 5=#7fc4a4
+palette = 6=#13b7bf
+palette = 7=#c7e2d2
+palette = 8=#244139
+palette = 9=#d99a73
+palette = 10=#b6ee9c
+palette = 11=#e4f49a
+palette = 12=#58d2c0
+palette = 13=#a5deb8
+palette = 14=#6ff5e3
+palette = 15=#e2f7e8
